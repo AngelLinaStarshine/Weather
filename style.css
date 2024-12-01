@@ -1,0 +1,87 @@
+body{
+    background: url('iceberg.jpg') center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(200, 204, 233, 0.404), rgba(0, 0, 0, 0.6));
+    min-height: 100vh;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#input {
+    background-color: rgba(113, 171, 210, 0.6);
+    border-radius: 20px;
+    border:3px solid rgba(51, 56, 82, 0.39);
+    padding: 15px;
+    font-size: 20px;
+}
+
+#input:focus {
+    background-color: rgb(198, 230, 234);
+}
+
+#when-where {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city {
+    color: white;
+    font-size: 45px;
+   
+}
+
+#date {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+#now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#temperature{
+    color: white;
+    font-size: 110px;
+    font-weight: bold;
+    text-shadow: 5px 10px black;
+    margin: 0;
+}
+
+#feelslike {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
+#conditions {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+   
+}
+
+#variations {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    
+}
